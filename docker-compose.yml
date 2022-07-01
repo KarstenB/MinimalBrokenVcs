@@ -1,0 +1,6 @@
+services:
+  build:
+    image: testing_bugs
+    build: 
+      context: .
+      dockerfile: Dockerfile
